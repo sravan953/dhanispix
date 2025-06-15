@@ -1,0 +1,3 @@
+SIGLIP_MODEL = "google/siglip-base-patch16-224"
+LOGIT_SCALE = 4.765625
+LOGIT_BIAS = -12.9296875
