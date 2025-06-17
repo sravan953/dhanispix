@@ -4,9 +4,10 @@ from pathlib import Path
 sys.path.insert(0, Path(__file__).resolve().parent.as_posix())
 import joblib
 import numpy as np
-import streamlit as st
 import torch
 from PIL import Image
+
+import demos.streamlit as st
 
 torch.classes.__path__ = []
 
